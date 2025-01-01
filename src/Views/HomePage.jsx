@@ -9,7 +9,7 @@ import '../App.css'
     <>
       <div id="container">
       <div id="headerwrapper">
-      <div id="header">
+      <div id="header" className="">
         
           <img src={merakilogo} className="headerimg"/>
           </div>
