@@ -1,4 +1,4 @@
-body {
+rbody {
   background-color: #000;
   margin: 0;
   box-sizing: content-box;
@@ -13,13 +13,15 @@ body {
  
 }
 
+div#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
 .headerimg{
   width: 30%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
 
 #container{
