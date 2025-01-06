@@ -2,7 +2,7 @@ import React from 'react'
 import wa from "../assets/whatsapp.png";
 import merakilogo from "../assets/logomerakiweb.png"
 import '../App.css'
-
+import disenioppal from "../assets/meraki-servicios.jpeg"
 
  const HomePage = () => {
   return (
@@ -11,7 +11,8 @@ import '../App.css'
       <div id="headerwrapper">
       <div id="header" className="">
         
-          <img src={merakilogo} className="headerimg"/>
+          
+          <img src={disenioppal} className="disenioppal" />
           </div>
         </div>
           
@@ -21,7 +22,7 @@ import '../App.css'
 }
 
 /**
- * 
+ * <img src={merakilogo} className="headerimg"/>
  *  <div id="bookswrapper">
         <div id="books">
         <div className="titlebooks">

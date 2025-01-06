@@ -15,13 +15,17 @@ body {
 
 div#header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .headerimg{
   width: 30%;
+}
+
+.disenioppal{
+  width: 350px;
 }
 
 #container{
@@ -518,7 +522,12 @@ div#header {
 @media (min-width: 576px) {  }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {  }
+@media (min-width: 768px) { 
+
+  .disenioppal{
+    width: 550px;
+  }
+ }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
@@ -825,6 +834,9 @@ div#header {
   color: black;
 }
 
+.disenioppal{
+  width: 650px;
+}
 
 }
 
